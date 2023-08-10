@@ -12,7 +12,6 @@ before using this script.  You can also login without a browser by using
 
 Usage:
    ./export.py <Application ID to export> <output CSV file name>
-ID of the TTS Application that you want to export.
 """
 import subprocess
 import sys
