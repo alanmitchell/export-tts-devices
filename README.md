@@ -3,9 +3,11 @@ Script to export all devices in an The Things Stack Application. Creates a CSV f
 
 Usage:
 
-    First use "ttn-lw-cli login" to authenticate with the browser to the Things Account you want to export from.
-    Then, use the following command, substituting the appropriate command line parameters.
+    First use "ttn-lw-cli login" to authenticate with the browser to the 
+    Things Account you want to export from. Then, use the following command, 
+    substituting the appropriate command line parameters.
 
     ./export.py <Application ID to export> <output CSV file name>
 
-    When importing the CSV file into Things, select "The Things Stack CSV" as the file format.
+    When importing the CSV file into Things, select "The Things Stack CSV" as the 
+    file format.
